@@ -1,0 +1,71 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# Credentials / private keys
+credentials.json
+service-account.json
+*-service-account.json
+gcp-credentials.json
+*.pem
+*.key
+
+# ==============================
+# Terraform
+# ==============================
+.terraform/
+**/.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# ==============================
+# Generated output
+# ==============================
+terraform_output/
+inventory_cache/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Python tooling
+# ==============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
